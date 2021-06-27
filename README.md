@@ -10,23 +10,32 @@
 
 ## 환경
 
-*Windows 10
-*Springboot
-*Tomcat 9.0
-*MySQL 8.0
-*Lombok
-*JPA
-*JavaScript
-*Thymeleaf
-*JQuery
-*Ajax
+- Windows 10
 
+- Springboot
 
+- Tomcat 9.0
+
+- MySQL 8.0
+
+- Lombok
+
+- JPA
+
+- JavaScript
+
+- Thymeleaf
+
+- JQuery
+
+- Ajax
+
+--------------------
 ## 참고사이트
 
 - 카드 고릴라(card-gorilla.com)
 
-
+--------------------------
 
 3-1 개발순서 
 
