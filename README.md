@@ -1,12 +1,30 @@
-# spring_card24Project
+# spring 카드사 추천 홈페이지 프로젝트
 
-1. 주제 : 카드사[ 신용카드 추천 사이트 ] 
+### 프로젝트 기간 : 21.05.06 ~ 21.05.30 
 
-2. 사이트명 : Card24
+### 프로젝트 수행자 : 이강현
+
+### ec-2 배포 링크 : http://
       
-      - 스프링부트 사용하는 이유 [ 강현 ]
-3. 레이아웃 [ 여름 ]
+###   
 
+## 환경
+
+*Windows 10
+*Springboot
+*Tomcat 9.0
+*MySQL 8.0
+*Lombok
+*JPA
+*JavaScript
+*Thymeleaf
+*JQuery
+*Ajax
+
+
+## 참고사이트
+
+- 카드 고릴라(card-gorilla.com)
 
 
 
