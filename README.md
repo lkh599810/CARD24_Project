@@ -35,9 +35,14 @@
 1. Oauth2 이용
 
 	* 카카오 로그인 API 
-		1. https://www.banksalad.com/sectors/card
+		 https://www.banksalad.com/sectors/card
+		
        	* 네이버 로그인 API
-       	 	2. https://nid.naver.com/user2/campaign/introNaverIdLogin.nhn
+       	 	 https://nid.naver.com/user2/campaign/introNaverIdLogin.nhn
+		 
        	* 구글 로그인 API		
-       		3. https://console.cloud.google.com/
+       		 https://console.cloud.google.com/
+
+## MySQL (RDS) 이용 :
+	![image](https://user-images.githubusercontent.com/80736178/123553484-52511f80-d7b6-11eb-945f-c9e9bb4ea2ce.png)
 
