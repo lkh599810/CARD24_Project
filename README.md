@@ -8,18 +8,15 @@
       
 ###   
 
-## 환경
+## 사용 기술 스택
 
-- Windows 10
-- Springboot
-- Tomcat 9.0
-- MySQL 8.0
-- Lombok
-- JPA
-- JavaScript
-- Thymeleaf
-- JQuery
-- Ajax
+	# Backend: JAVA, Springboot, JPA, MySQL
+	
+	# Frontent: HTML, CSS, JavaScript, Ajax, JQuerym Thymeleaf
+	
+	# 기타 : github, AWS
+	
+	#개발환경: windows 10 , IntelliJ, MySQL 등.
 
 
 ## 참고사이트
@@ -30,40 +27,36 @@
 - 뱅크샐러드 (https://www.banksalad.com/sectors/card)
 
 
-## 사용 API
 
-1. Oauth2 이용
+## 참고사항
 
-	* 카카오 로그인 API 
-		- https://www.banksalad.com/sectors/card
-		
-       	* 네이버 로그인 API
-       	 	- https://nid.naver.com/user2/campaign/introNaverIdLogin.nhn
-		 
-       	* 구글 로그인 API		
-       		- https://console.cloud.google.com/
+1. 모든 코드를 MVC패턴에 맞추어 작성.
 
-## MySQL (RDS) :
-	```
-	create table board (bbsid bigint not null auto_increment, create_date datetime, modified_date datetime, bbs_category varchar(255) not null, bbs_content varchar(255) not null, bbs_reply varchar(255), bbs_title varchar(255) not null, userid varchar(255), primary key (bbsid)) ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4;
+2. Spring Security를 이용한 보안
 
+3. Oauth2 를 이용한 구글 / 네이버 / 카카오 API 로그인 구현
 
+4. 제품 서비스 외에도, CRUD 게시판 구현
 
-create table card (card_code bigint not null auto_increment, annual_fee integer not null, before_pay integer not null, benefit1 varchar(255) not null, benefit1_detail TEXT, benefit2 varchar(255) not null, benefit2_detail TEXT, benefit3 varchar(255) not null, benefit3_detail TEXT, card_company varchar(255) not null, card_link varchar(255) not null, card_name varchar(255) not null, card_photo TEXT, card_type varchar(255) not null, count integer, primary key (card_code)) ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4;
-
-
-create table card_company (company_code bigint not null auto_increment, company_logo varchar(255) not null, company_name varchar(255) not null, have_card_num integer not null, primary key (company_code)) ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4;
-
-
-create table reply (id bigint not null auto_increment, create_date datetime, modified_date datetime, reply_content varchar(300) not null, reply_writer TEXT, bbsid bigint not null, primary key (id)) ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4;
-
-
-create table user (id bigint not null auto_increment, create_date datetime, modified_date datetime, email varchar(255) not null, name varchar(255) not null, role varchar(255) not null, primary key (id)) ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4;
+## 데이터베이스
 	
-	```
+	- RDS/ MySQL 이용
+		
+		*테이블: 회원, 게시판, 게시판답글(관리자), 카드, 카드사
 
+## 개발 배경
+
+	- 소비자의 상황에 따라, 혜택이 천차만별인 카드를 선별 및 추천 해주는 사이트.
+	- 연령별 / 성별/ 혜택별 등의 조건검색, 여러가지 카드 비교, 인기순 카드 차트, 문의 게시판 등이 있음.
+	
+	
+## 홈페이지 구조	
+	
+ 	-로그인 : 카드사에 연결만 해주는 것에 초점을 맞추어 OAUTH2를 이용한 네이버/카카오/구글 로그인으로 구현.
+	
+	-관리자 : 카드 / 카드사 등록수정삭제, 게시판 답글 등을 구현.
+	
+	-사용자 : 인기별 카드 차트, 대부분의 페이지에서의 카드별 비교기능, 조건에 따른 검색기능을 구현.
+	
+	
+	
