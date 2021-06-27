@@ -4,7 +4,7 @@
 
 ### 프로젝트 수행자 : 이강현
 
-### ec-2 배포 링크 : http://
+### ec-2 배포 링크 : http://ec2-54-180-39-245.ap-northeast-2.compute.amazonaws.com:8080/
       
 ###   
 
