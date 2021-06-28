@@ -1,4 +1,4 @@
-# spring 카드사 추천 홈페이지 프로젝트
+# 카드사 추천 홈페이지 프로젝트 (Springboot)
 
 ### 프로젝트 기간 : 21.05.06 ~ 21.06.03 
 
@@ -10,13 +10,15 @@
 
 ## 사용 기술 스택
 
+	#개발환경: windows 10 , IntelliJ, MySQL 등.
+	
 	# Backend: JAVA, Springboot, JPA, MySQL
 	
 	# Frontent: HTML, CSS, JavaScript, Ajax, JQuerym Thymeleaf
 	
 	# 기타 : github, AWS
 	
-	#개발환경: windows 10 , IntelliJ, MySQL 등.
+	
 
 
 ## 참고사이트
