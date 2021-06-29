@@ -6,17 +6,17 @@
 
 ### ec-2 배포 링크 : http://ec2-54-180-39-245.ap-northeast-2.compute.amazonaws.com:8080/
       
-###   
+### 시연 영상 : https://www.youtube.com/watch?v=iGtQYibdWVs
 
 ## 사용 기술 스택
 
-	#개발환경: windows 10 , IntelliJ, MySQL 등.
+	-개발환경: windows 10 , IntelliJ, MySQL 등.
 	
-	# Backend: JAVA, Springboot, JPA, MySQL
+	- Backend: JAVA, Springboot, JPA, MySQL
 	
-	# Frontent: HTML, CSS, JavaScript, Ajax, JQuerym Thymeleaf
+	- Frontent: HTML, CSS, JavaScript, Ajax, JQuerym Thymeleaf
 	
-	# 기타 : github, AWS
+	- 기타 : github, AWS
 	
 	
 
