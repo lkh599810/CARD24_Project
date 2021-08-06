@@ -70,4 +70,6 @@
 https://github.com/lkh599810/Console_Java
 
 	
-	
++콘솔창 게시판으로는 약간의 부족함이 있어 JavaFX를 이용한 MVC패턴의 게시판도 구현.
+
+https://github.com/lkh599810/FX_MVC
