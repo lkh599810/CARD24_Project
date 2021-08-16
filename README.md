@@ -6,17 +6,17 @@
 
 ### ec-2 배포 링크 : http://ec2-54-180-39-245.ap-northeast-2.compute.amazonaws.com:8080/
       
-###   
+### 시연 영상 : https://www.youtube.com/watch?v=iGtQYibdWVs
 
 ## 사용 기술 스택
 
-	#개발환경: windows 10 , IntelliJ, MySQL 등.
+	-개발환경: windows 10 , IntelliJ, MySQL 등.
 	
-	# Backend: JAVA, Springboot, JPA, MySQL
+	- Backend: JAVA, Springboot, JPA, MySQL
 	
-	# Frontent: HTML, CSS, JavaScript, Ajax, JQuerym Thymeleaf
+	- Frontent: HTML, CSS, JavaScript, Ajax, JQuerym Thymeleaf
 	
-	# 기타 : github, AWS
+	- 기타 : github, AWS
 	
 	
 
@@ -27,6 +27,9 @@
 
 
 - 뱅크샐러드 (https://www.banksalad.com/sectors/card)
+
+
+
 
 
 
@@ -60,5 +63,13 @@
 	
 	-사용자 : 인기별 카드 차트, 대부분의 페이지에서의 카드별 비교기능, 조건에 따른 검색기능을 구현.
 	
+# 어려웠던 점 및 해결방법:
+
+프로젝트 중 MVC 패턴이 너무 이해가 안갈 때 Java의 콘솔창만을 이용하여 MVC 스타일의 게시판 구현을 병행해봄.
+
+https://github.com/lkh599810/Console_Java
+
 	
-	
++콘솔창 게시판으로는 약간의 부족함이 있어 JavaFX를 이용한 MVC패턴의 게시판도 구현.
+
+https://github.com/lkh599810/FX_MVC
