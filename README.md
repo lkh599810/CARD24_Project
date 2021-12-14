@@ -14,7 +14,7 @@
 	
 	- Backend: JAVA, Springboot, JPA, MySQL
 	
-	- Frontent: HTML, CSS, JavaScript, Ajax, JQuerym Thymeleaf
+	- Frontent: HTML, CSS, JavaScript, Ajax, JQuery, Thymeleaf
 	
 	- 기타 : github, AWS
 	
